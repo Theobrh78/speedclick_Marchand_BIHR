@@ -14,7 +14,8 @@ public class Speedclick_MARCHAND_BIHR {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Partie part = new Partie();
+        part.initialisaserMatrice(5, 5);
     }
     
 }

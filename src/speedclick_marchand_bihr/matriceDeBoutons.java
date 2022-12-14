@@ -20,7 +20,7 @@ public class matriceDeBoutons {
         matrice = new Bouton[ligne][colone]; 
     }
 
-    public void matrice() {
+    public void creematrice() {
         for (int i = 0; i < ligne; i++) {
             for (int j = 0; j < colone; j++) {
                 matrice[i][j] = new Bouton();
