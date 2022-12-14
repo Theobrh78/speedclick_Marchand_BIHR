@@ -50,7 +50,7 @@ public class matriceDeBoutons {
         Random b = new Random();
         int c = b.nextInt(5);
         matrice[a][c].allumerbouton();
-        
+    }
             
             
             

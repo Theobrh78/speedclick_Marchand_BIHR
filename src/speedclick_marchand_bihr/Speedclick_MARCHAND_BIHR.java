@@ -16,6 +16,7 @@ public class Speedclick_MARCHAND_BIHR {
     public static void main(String[] args) {
         Partie part = new Partie();
         part.initialisaserMatrice(5, 5);
+        part.jouer();
     }
     
 }

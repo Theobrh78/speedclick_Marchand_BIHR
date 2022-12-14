@@ -31,8 +31,9 @@ public class Bouton {
         allume=false;
     }
     
-    public void clicker(){            // si le boton est clické, l'attribut clicjé prend vrai
+    public boolean clicker(){            // si le boton est clické, l'attribut clicjé prend vrai
         click = true;
+        return true;
     }
     
     public void declicker(){        //permet de reinitialiser l'attribut click
