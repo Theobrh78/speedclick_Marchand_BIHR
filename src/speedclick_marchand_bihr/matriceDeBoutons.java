@@ -56,11 +56,6 @@ public class matriceDeBoutons {
             
             
     public void afficherMatrice() {
-        Random r = new Random();        // dès qu'on affiche la matrice de boutons, on en allume un au hasard
-        int a = r.nextInt(5);
-        Random b = new Random();
-        int c = b.nextInt(5);
-        matrice[a][c].allumerbouton();
         
         for (int x = ligne - 1; x >= 0; x--) {
             for (int y = 0; y < colone; y++) {
@@ -75,14 +70,14 @@ public class matriceDeBoutons {
         }
     }
 
-    public void BoutonClicker() {
+    public boolean BoutonClicker() {
         for (int i = 0; i < ligne; i++) {
             for (int j = 0; j < colone; j++) {
-                 if (matrice[i][j].clicker()==true && matrice[i][j].onoff()==true);
-                 afficherMatrice();
-                 matrice[i][j].declicker();
+                 if (matrice[i][j].clicker()==true && matrice[i][j].onoff()==true) {
+                 return true;
             }
-        }
+        } 
         
-    }
+    } return false; // sinon on retourne faux
+}
 }
