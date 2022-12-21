@@ -13,7 +13,6 @@ public class Fenetre extends javax.swing.JFrame {
     /**
      * Creates new form Fenetre
      */
-    int nbL = nbLignes;
     private matriceDeBoutons matrice;
     public Fenetre() {
         initComponents();
