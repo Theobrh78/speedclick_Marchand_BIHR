@@ -131,8 +131,9 @@ public class Fenetre extends javax.swing.JFrame {
     }//GEN-LAST:event_nbColonnesActionPerformed
 
     private void LancerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_LancerActionPerformed
-
+        Timer.setVisible(true);
         GrilleDeBoutons.setVisible(true);        // TODO add your handling code here:
+        
     }//GEN-LAST:event_LancerActionPerformed
 
     private void nbLignesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nbLignesActionPerformed

@@ -12,4 +12,9 @@ import javax.swing.JButton;
  */
 public class celluleGraph extends JButton {
     Bouton bout;
+    for ( int I=0; I<5; I++ ){
+     for ( int j=0; j<5; j++ ){
+        
+    }
+}
 }
