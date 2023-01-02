@@ -4,6 +4,8 @@
  */
 package speedclick_marchand_bihr;
 
+import java.awt.Graphics;
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 
 /**
@@ -12,9 +14,15 @@ import javax.swing.JButton;
  */
 public class celluleGraph extends JButton {
     Bouton bout;
-    for ( int I=0; I<5; I++ ){
-     for ( int j=0; j<5; j++ ){
-        
+    ImageIcon img_vide = new javax.swing.ImageIcon(getClass().getResource("/images/celluleVide.png"));
+    
+    public celluleGraph (Bouton unbouton){
+           bout=unbouton;
     }
-}
+    
+    @Override
+    public void paintComponent(Graphics G){
+        super.paintComponent ( G);
+        setIcon (img_vide);
+    }
 }
