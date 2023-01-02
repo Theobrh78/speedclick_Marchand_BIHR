@@ -14,15 +14,15 @@ import javax.swing.JButton;
  */
 public class celluleGraph extends JButton {
     Bouton bout;
-    ImageIcon img_vide = new javax.swing.ImageIcon(getClass().getResource("/images/celluleVide.png"));
+    //ImageIcon img_vide = new javax.swing.ImageIcon(getClass().getResource("/images/celluleVide.png"));
     
-    public celluleGraph (Bouton unbouton){
+  public celluleGraph (Bouton unbouton){
            bout=unbouton;
-    }
+   }
     
-    @Override
-    public void paintComponent(Graphics G){
-        super.paintComponent ( G);
-        setIcon (img_vide);
-    }
+    //@Override
+    //public void paintComponent(Graphics G){
+       // super.paintComponent ( G);
+       // setIcon (img_vide);
+   // }
 }

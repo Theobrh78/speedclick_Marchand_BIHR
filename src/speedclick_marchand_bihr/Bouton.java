@@ -18,8 +18,8 @@ public class Bouton {
         click=false;
     }
     
-    public void allumerbouton (){   //permet d'aallumer le bouton
-        allume=true;
+    public boolean allumerbouton (){   //permet d'aallumer le bouton
+        return true;
     }
     
     public boolean onoff (){  //la méthode permet de savoir si le bouton est allumé ou nom

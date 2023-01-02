@@ -39,7 +39,7 @@ public class Fenetre extends javax.swing.JFrame {
         
             for (int i = 0; i < 5; i++) {
                 for (int j = 0; j < 6; j++) {
-                    celluleGraph cell = new celluleGraph();//(matriceJeu.matrice[i][j]);
+                    celluleGraph cell = new celluleGraph(matriceJeu.matrice[i][j]);//(matriceJeu.matrice[i][j]);
                     cell.addActionListener(new java.awt.event.ActionListener() {
                         public void actionPerformed(java.awt.event.ActionEvent evt) { // Si on clique sur un bouton rouge, il se passe les instruction suivantes grace a un ecouteur
                             Bouton B = cell.bout;
